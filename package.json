@@ -1,0 +1,19 @@
+{
+    "name": "broccoli-es-dependency-graph",
+    "version": "0.0.1",
+    "private": true,
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "es-dependency-graph": "^0.1.3",
+        "broccoli-writer": "^0.1.1",
+        "broccoli-kitchen-sink-helpers": "^0.2.2",
+        "walk-sync": "^0.1.0",
+        "extend": "^1.2.1"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.2",
+        "grunt-cli": "^0.1.13",
+        "grunt-contrib-clean": "^0.5.0",
+        "grunt-broccoli-build": "^0.3.0"
+    }
+}
