@@ -3,6 +3,16 @@
     "version": "0.0.1",
     "private": true,
     "license": "BSD-3-Clause",
+    "keywords": [
+        "broccoli",
+        "broccoli-helper",
+        "ecmascript",
+        "es6",
+        "AST",
+        "dependency",
+        "dependencies",
+        "analizer"
+    ],
     "main": "lib/index.js",
     "scripts": {
         "test": "grunt test"
