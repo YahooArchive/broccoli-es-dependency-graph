@@ -20,9 +20,9 @@ API
 Generates a JSON file with the dependency information for all the files in the
 `inputTree`. Options:
 
-  * *dest*: name of the JSON file to generate. Default: `dep-graph.json`.
-  * *includeBindings*: whether to include the names of all the imports and exports in each module. Default: false.
-  * *moduleName*: a function that modifies the name of each module. It received two parameters: the current path and the path to the parent module in the case of an import. You can use this function to remove file extensions from module names and normalize them across your project. Example:
+  * **dest**: name of the JSON file to generate. Default: `dep-graph.json`.
+  * **includeBindings**: whether to include the names of all the imports and exports in each module. Default: false.
+  * **moduleName**: a function that modifies the name of each module. It received two parameters: the current path and the path to the parent module in the case of an import. You can use this function to remove file extensions from module names and normalize them across your project. Example:
 
 ```js
 var result = depGraph(tree, {
