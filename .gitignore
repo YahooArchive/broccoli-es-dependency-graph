@@ -1,3 +1,5 @@
+.jshintrc
+
 node_modules/
-build/
+tests/compare/actual/
 tmp/
