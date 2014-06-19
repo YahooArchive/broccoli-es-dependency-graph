@@ -1,0 +1,38 @@
+{
+    "module1": {
+        "imports": {
+            "module2": ["foo"],
+            "module3": ["bar"]
+        },
+        "exports": []
+    },
+    "module2": {
+        "imports": {},
+        "exports": ["foo"]
+    },
+    "module3": {
+        "imports": {
+            "module4": ["default"]
+        },
+        "exports": [
+            "bar",
+            "answer"
+        ]
+    },
+    "module4": {
+        "imports": {
+            "module5": ["msg"]
+        },
+        "exports": [
+            "default"
+        ]
+    },
+    "module5": {
+        "imports": {
+        },
+        "exports": [
+            "msg",
+            "author"
+        ]
+    }
+}
