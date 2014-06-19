@@ -1,33 +1,33 @@
 {
-    "module1.js": {
+    "module1": {
         "imports": {
-            "component1/module2": ["foo"],
-            "component2/module3": ["bar"]
+            "module2": ["foo"],
+            "module3": ["bar"]
         },
         "exports": []
     },
-    "component1/module2.js": {
+    "module2": {
         "imports": {},
         "exports": ["foo"]
     },
-    "component1/module3.js": {
+    "module3": {
         "imports": {
-            "../component2/module4": ["default"]
+            "module4": ["default"]
         },
         "exports": [
             "bar",
             "answer"
         ]
     },
-    "component2/module4.js": {
+    "module4": {
         "imports": {
-            "./module5": ["msg"]
+            "module5": ["msg"]
         },
         "exports": [
             "default"
         ]
     },
-    "component2/module5.js": {
+    "module5": {
         "imports": {
         },
         "exports": [

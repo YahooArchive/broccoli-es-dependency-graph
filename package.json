@@ -3,6 +3,7 @@
     "version": "0.0.1",
     "private": true,
     "license": "BSD-3-Clause",
+    "main": "lib/index.js",
     "scripts": {
         "test": "grunt test"
     },

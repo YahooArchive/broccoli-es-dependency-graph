@@ -22,6 +22,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-mocha-test');
 
-    grunt.registerTask('test', ['clean', 'broccoli_build', 'clean:tmp', 'mochaTest:dev']);
-    grunt.registerTask('default', ['test']);
+    grunt.registerTask('build', ['clean', 'broccoli_build', 'clean:tmp']);
+    grunt.registerTask('test', ['build', 'mochaTest:dev']);
+    grunt.registerTask('default', ['build']);
 };
