@@ -10,7 +10,7 @@ Broccoli plugin for obtaining the dependency graph from ES6 modules.
 Limitations
 -----------
 
-See limitations in [es-dependency-graph-limitations][].https://github.com/yahoo/es-dependency-graph#limitations
+See limitations in [es-dependency-graph-limitations][].
 
 API
 ---
@@ -29,7 +29,7 @@ var result = depGraph(tree, {
     moduleName: function (importPath, modulePath) {
         return path.join(path.dirname(modulePath), importPath);
     }
-})
+});
 ```
 
 License
