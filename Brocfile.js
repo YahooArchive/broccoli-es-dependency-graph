@@ -1,3 +1,8 @@
+/*
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/broccoli-es-dependency-graph/blob/master/LICENSE.md
+*/
 var path       = require('path'),
     depGraph   = require('./lib/index'),
     mergeTrees = require('broccoli-merge-trees');
