@@ -42,6 +42,8 @@
         "grunt-broccoli-build": "^0.3.0",
         "grunt-mocha-test": "^0.11.0",
         "chai": "^1.9.1",
+        "mocha": "^1.20.1",
+        "xunit-file": "^0.0.5",
         "broccoli-merge-trees": "^0.1.4"
     }
 }
